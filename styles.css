@@ -1,13 +1,173 @@
-
+*{
+  margin: 0;
+  padding: 0;
+}
 ul {
   list-style-type: none;
-  margin: 10px;
-  padding: 10px;
-  background-color: rgba(0,52,76,1)
+  margin: 0px;
+  padding: 0px;
+  background-color: rgba(0,52,76,1);
+  height: 50px;
+  
 
 }
-
+#navbar,
+#bluenavbar {
+  height: 35px;
+  padding: 5px 0 30px 0;
+}
 li {
   display: inline;
-  
+  color: white;
+  text-transform: uppercase;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 1.2em;
+  line-height: 1.6;
+  margin: 0 12px;
+  font-weight: bold;
+}
+.left{
+  float:left;
+}
+#navbar {
+  width: 91%;
+  background-color: #10243B;
+}
+#navbar li:nth-child(n + 8) {
+  color: #a3dde8;
+    font-weight: lighter !important;
+    font-size: 0.8em;
+    margin: 0 10px !important;
+}
+#navbarimg img{
+  height: 40px;
+}
+#bluenavbar {
+  background-color: #0088cc;
+    width: 9%;
+    display: inline-block;
+    color: white;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+#navbardivider {
+  height: 70px;
+    width: 3px;
+    margin: 0;
+    background-color: white;
+}
+/* --------------------------- HERO SECTION --------------------------*/
+#herosection {
+  height: 100vh;
+    width: 100vw;
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0), transparent), url(images/fans.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#herocontent{
+  position: relative;
+  top: 150px;
+  left: 50px;
+  color: white;
+  display: inline;
+}
+#herotext{
+  padding: 50px 0 0 25px;
+}
+#herotext h1{
+  font-size: 2.33em;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  text-decoration-style: solid;
+}
+#herotext h4{
+  font-family: 'PT Sans Narrow', sans-serif;    
+}
+/*------------------------------------------ EXPLORE SECTION ---------------------------------------------*/
+
+#exploresection {
+  width: 100%;
+  height: 400px;
+  background-color: thistle
+}
+#exploreheader {
+  height: 70px;
+  width: 100%;
+  background-color: #10243B;
+  color: white;
+  font-size: 1em;
+  text-align: center;
+  padding-top: 9px;
+  border-bottom: 8px solid skyblue;
+  font-family: 'PT Sans Narrow', sans-serif; 
+}
+#exploreheader img{
+  padding-top: 5px;
+}
+#explorecontent{
+  height: 330px;
+  width: 100%;
+  background-color: firebrick;
+  display: inline;
+}
+.explorebox{
+  height: 328px;
+  width: 25%;
+  background-color: orangered;
+}
+#patriot{
+  background-image: url(images/patriots\ plaza.jpg);    
+  background-position: center;
+  background-size: cover;
+}
+#college{
+  background-image: url(images/college.png);    
+  background-position: center;
+  background-size: cover;
+
+}
+#ccnn{
+  background-image: url(images/ccnn.jpg);    
+  background-position: center;
+  background-size: cover;
+}
+#media{
+  background-image: url(images/ccnn\ live.png);    
+  background-position: center;
+  background-size: cover;
+}
+/*---------------------------- CCHS GLANCE --------------------------*/
+#glancesection{
+  font-family: 'Open Sans', sans-serif;
+  width: 100%;
+  height: 400px;
+}
+
+#glanceheader{
+  height: 60px;
+  width: 100%;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.glancebox{
+  display: inline;
+  width: 25%;
+  height: 340px;
+  text-align: center;    
+}
+
+.glancebox img{
+  width: 60%;
+}
+
+.glancebox h3{
+  color: red;
+  font-size: 2em;
+}
+
+.glancebox p{
+  color: #333;
+  font-size: 1.2em;
 }
